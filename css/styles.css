@@ -1,0 +1,99 @@
+/* Color Theme Swatches in Hex */
+.color-theme_unsplash-1-hex { color: #BBB0B6; }
+.color-theme_unsplash-2-hex { color: #C7CFD9; }
+.color-theme_unsplash-3-hex { color: #04668C; }
+.color-theme_unsplash-4-hex { color: #04738C; }
+.color-theme_unsplash-5-hex { color: #04C4D9; }
+
+.Smart-Diffuser-App-1-hex { color: #BFBFBF; }
+.Smart-Diffuser-App-3-hex { color: #A6A397; }
+.Smart-Diffuser-App-4-hex { color: #F2F2F2; }
+.Smart-Diffuser-App-5-hex { color: #0D0D0D; }
+
+.Upcore-™---Interactive-Prototype-Concept-1-hex { color: #5EF2D7; }
+.Upcore-™---Interactive-Prototype-Concept-2-hex { color: #55D9C1; }
+.Upcore-™---Interactive-Prototype-Concept-3-hex { color: #F2F1F0; }
+.Upcore-™---Interactive-Prototype-Concept-4-hex { color: #A6A6A6; }
+.Upcore-™---Interactive-Prototype-Concept-5-hex { color: #0D0D0D; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #BFBFBF; 
+  color: #04738C;
+  background-image: url(../img/lechat-valentin-Ho17T_ZBJ5k-unsplash.jpg); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar {
+    background-color:#C7CFD9;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.nav-link {
+  font-size: larger;
+  font-weight: bold;
+  color: #04738C;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+/* Style all font awesome icons */
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  color: #04668C;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+  opacity: 0.7;
+}
+
+/* Social media icons */
+.socials {
+  margin-top: 10px;
+  display: flex;
+  font-size: 24pt; 
+  justify-content: space-around;
+}
+.rounded-logo {
+  margin-left: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9rem;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  display: block;
+  box-shadow: 0 0 5px #0d0d0d;
+}
+
+           
+#title {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: #04668C;
+}           
+#main-content {
+  display: flex;
+  align-items: center;
+}

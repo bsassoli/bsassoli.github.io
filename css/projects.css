@@ -1,0 +1,26 @@
+body {
+    color: #04668C;
+    background-image: url(../img/daniel-von-appen-tb4heMa-ZRo-unsplash.jpg); 
+}
+a {
+    color: #04738C;
+}
+
+.card-border-light {
+    border-color: #04738C;
+}
+.card-header {
+    background-color: #BBB0B6;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-emphasis: bold;
+}
+.card-text{
+text-emphasis: bold;
+color: #A6A397;
+}
+.card-body {
+    background-color: #F2F2F2;
+}
