@@ -10,11 +10,9 @@ a {
     border-color: #04738C;
 }
 .card-header {
-    background-color: #BBB0B6;
+    background-color: black;
     text-align: center;
     text-transform: uppercase;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
     text-emphasis: bold;
 }
 .card-text{
