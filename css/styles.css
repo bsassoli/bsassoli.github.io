@@ -28,9 +28,11 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    position:fixed;
+    align-items: stretch;
     background-color:#C7CFD9;
     opacity: 0.7;
-    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -92,7 +94,8 @@ body {
   margin-top: 40px;
   text-transform: uppercase;
   color: #04668C;
-}           
+}   
+
 #main-content {
   display: flex;
   align-items: center;
