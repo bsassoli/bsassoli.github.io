@@ -28,8 +28,7 @@ body {
 }
 
 .sidebar {
-    display: flex;
-    position:fixed;
+    position: fixed;
     align-items: stretch;
     background-color:#C7CFD9;
     opacity: 0.7;
@@ -97,6 +96,6 @@ body {
 }   
 
 #main-content {
-  display: flex;
+  position: fixed;
   align-items: center;
 }
