@@ -1,21 +1,46 @@
 /* Color Theme Swatches in Hex */
-.color-theme_unsplash-1-hex { color: #BBB0B6; }
-.color-theme_unsplash-2-hex { color: #C7CFD9; }
-.color-theme_unsplash-3-hex { color: #04668C; }
-.color-theme_unsplash-4-hex { color: #04738C; }
-.color-theme_unsplash-5-hex { color: #04C4D9; }
+.color-theme_unsplash-1-hex {
+  color: #BBB0B6;
+}
 
-.Smart-Diffuser-App-1-hex { color: #BFBFBF; }
-.Smart-Diffuser-App-3-hex { color: #A6A397; }
-.Smart-Diffuser-App-4-hex { color: #F2F2F2; }
-.Smart-Diffuser-App-5-hex { color: #0D0D0D; }
+.color-theme_unsplash-2-hex {
+  color: #C7CFD9;
+}
+
+.color-theme_unsplash-3-hex {
+  color: #04668C;
+}
+
+.color-theme_unsplash-4-hex {
+  color: #04738C;
+}
+
+.color-theme_unsplash-5-hex {
+  color: #04C4D9;
+}
+
+.Smart-Diffuser-App-1-hex {
+  color: #BFBFBF;
+}
+
+.Smart-Diffuser-App-3-hex {
+  color: #A6A397;
+}
+
+.Smart-Diffuser-App-4-hex {
+  color: #F2F2F2;
+}
+
+.Smart-Diffuser-App-5-hex {
+  color: #0D0D0D;
+}
 
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #BFBFBF; 
+  background-color: #BFBFBF;
   color: #04668C;
-  background-image: url(../img/lechat-valentin-Ho17T_ZBJ5k-unsplash.jpg); 
+  background-image: url(../img/lechat-valentin-Ho17T_ZBJ5k-unsplash.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,14 +57,14 @@ body {
 }
 
 .sidebar {
-    background-color:#C7CFD9;
-    opacity: 0.75;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
-    padding: 48px 0 0;
-    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  background-color: #C7CFD9;
+  opacity: 0.75;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 
 .nav-link {
@@ -49,7 +74,7 @@ body {
   margin-left: 1.5rem;
   text-transform: uppercase;
   opacity: 1;
-  
+
 }
 
 /* Style all font awesome icons */
@@ -71,9 +96,10 @@ body {
 .socials {
   margin-top: 10px;
   display: flex;
-  font-size: 24pt; 
+  font-size: 24pt;
   justify-content: space-around;
 }
+
 .rounded-logo {
   margin-left: 1rem;
   font-size: 16px;
@@ -89,7 +115,7 @@ body {
   box-shadow: 0 0 5px #04668C;
 }
 
-           
+
 #title {
   text-align: center;
   margin-right: auto;
@@ -97,10 +123,10 @@ body {
   margin-top: 40px;
   text-transform: uppercase;
   color: #04668C;
-}   
+}
 
 #main-content {
   display: flex;
-  
+
   align-items: center;
 }
