@@ -35,6 +35,15 @@
   color: #0D0D0D;
 }
 
+@font-face {
+  font-family: 'Intro-Free';
+  src: url(../css/Fonts/Intro-Free/OTF/IntroDemo-BlackInlineCAPS.otf);
+}
+
+@font-face {
+  font-family: 'CodePro';
+  src: url(../css/Fonts/CodePro/OTF/CodeDemo-Bold.otf);
+}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -57,8 +66,8 @@ body {
 }
 
 .sidebar {
-  background-color: #C7CFD9;
-  opacity: 0.75;
+  background-color: #BFBFBF;
+  opacity: 0.7;
   top: 0;
   bottom: 0;
   left: 0;
@@ -68,9 +77,10 @@ body {
 }
 
 .nav-link {
+  font-family: 'Intro-Free';
   font-size: larger;
   font-weight: bold;
-  color: #0D0D0D;
+  color: #04668C;
   margin-left: 1.5rem;
   text-transform: uppercase;
   opacity: 1;
@@ -115,8 +125,12 @@ body {
   box-shadow: 0 0 5px #04668C;
 }
 
+.rounded-logo:hover {
+  opacity: 0.7;
+}
 
-#title {
+.homepage-title {
+  font-family: 'CodePro';
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -125,8 +139,12 @@ body {
   color: #04668C;
 }
 
+#homepage-title-main {
+  font-family: 'Intro-Free';
+  color: #0D0D0D;
+}
+
 #main-content {
-  display: flex;
 
   align-items: center;
 }

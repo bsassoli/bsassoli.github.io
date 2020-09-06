@@ -1,5 +1,5 @@
 body {
-    color:  white;
+    
     background-image: url(../img/olia-gozha-J4kK8b9Fgj8-unsplash.jpg); 
 }
 a {
@@ -9,7 +9,4 @@ a {
     text-align: left;
     color : #A6A397;
     text-emphasis: bold;
-}
-.display-4 {
-    margin-bottom: 40px;
 }

@@ -1,0 +1,9 @@
+body {
+    background-image: url(../img/pawel-czerwinski-APVgVX_yDDc-unsplash.jpg);
+}
+
+#bio {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: larger;
+}
