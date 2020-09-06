@@ -28,10 +28,14 @@
 <body>
     <div class="container-fluid d-flex h-100 flex-column">
         <div class="row flex-grow-1">
-            <div class="col-md-4 sidebar">
+            <div class="col-sm-3 sidebar">
+                <button aria-controls="nav" aria-expanded="false" class="btn btn-sm collapsed d-md-none"
+                    data-target="aside > nav" data-toggle="collapse">
+                    Menu
+                </button>
                 <!-- The sidebar -->
                 <!-- A grey horizontal navbar that becomes vertical on small screens -->
-                <nav class="navbar">
+                <nav class="navbar collapse d-md-block">
                     <!-- Navbar links -->
                     <ul class="navbar-nav">
                         <li class="logo-container">
@@ -42,7 +46,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
@@ -67,14 +71,15 @@
             </div>
         
 
-            <div class="col-md-8">
+            <div class="col-sm-9">
                 <div class="container-md" id="main-content">
                     <div class="d-flex justify-content-center">
                         <!-- Main content -->
                         <div id="title">
-                            <h1 class="display-1">Hi everyone!</h1>
-                            <h2 class="display-4">I am Bernardino</h2>
-                            <h3 class="display-5">Welcome to my website</h3>
+                            <h1 class="display-1" style="color:black">J O A T // M O N</h1>
+                            <br></br>    
+                            <h2 class="display-4">Jack of all trades, master of none</h2>
+                            <!--<h3 class="display-5" style="color:black; align-self: flex-end;">Welcome to my website</h3>-->
                         </div>
                     </div>
                 </div>
