@@ -105,14 +105,12 @@ body {
 /* Social media icons */
 .socials {
   margin-top: 10px;
-  display: flex;
   font-size: 24pt;
-
   justify-content: space-around;
 }
 
 .rounded-logo {
-  margin-left: 20px;
+  margin-left: 0px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.9rem;
@@ -123,7 +121,7 @@ body {
   border-color: #04668C;
   margin-bottom: 40px;
   display: block;
-  box-shadow: 0 0 5px #04668C;
+  box-shadow: 0 0 5px #0D0D0D;
 }
 
 .rounded-logo:hover {
