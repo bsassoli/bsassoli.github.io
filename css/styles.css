@@ -187,8 +187,8 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-  .fab {
-    padding: 10px;
+  .fab { 
+    padding: 15px;
     font-size: 30px;
     width: 30px;
     text-align: center;
@@ -201,11 +201,11 @@ body {
     font-size: larger;
     font-weight: bold;
     color: #04668C;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     text-transform: uppercase;
     opacity: 1;
   }
-  sidebar {
+  .sidebar {
     background-color: transparent;
     top: 0;
     bottom: 0;
