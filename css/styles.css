@@ -168,7 +168,7 @@ body {
     
     font-size: 30px;
     width: 30px;
-    text-align: center;
+    text-align: left;
     color: #04668C;
     opacity: 1;
     font-size: large;
@@ -186,10 +186,9 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
   .fab { 
-    
     font-size: 30px;
     width: 30px;
-    text-align: center;
+    text-align: left;
     color: #04668C;
     opacity: 1;
     font-size: large;
@@ -216,10 +215,9 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   .fab {
-    
     font-size: 30px;
     width: 30px;
-    text-align: center;
+    text-align: left;
     color: #04668C;
     opacity: 1;
   }
@@ -229,7 +227,7 @@ body {
     font-size: larger;
     font-weight: bold;
     color: #04668C;
-    margin-left: 1rem;
+    
     text-transform: uppercase;
     opacity: 1;
   }
