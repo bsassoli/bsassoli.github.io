@@ -168,7 +168,7 @@ body {
     
     font-size: 30px;
     width: 30px;
-    text-align: left;
+    text-align: center;
     color: #04668C;
     opacity: 1;
     font-size: large;
@@ -188,7 +188,7 @@ body {
   .fab { 
     font-size: 30px;
     width: 30px;
-    text-align: left;
+    text-align: center;
     color: #04668C;
     opacity: 1;
     font-size: large;
@@ -198,7 +198,6 @@ body {
     font-size: larger;
     font-weight: bold;
     color: #04668C;
-    
     text-transform: uppercase;
     opacity: 1;
   }
@@ -217,7 +216,7 @@ body {
   .fab {
     font-size: 30px;
     width: 30px;
-    text-align: left;
+    text-align: center;
     color: #04668C;
     opacity: 1;
   }
