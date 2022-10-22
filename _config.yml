@@ -34,7 +34,7 @@ author:
   picture: /assets/images/avatar.jpg
 logo: /assets/images/logo/profile_picture_symbol.png
 # Build settings
-theme: jekyll-theme-basically-basic
+# theme: jekyll-theme-basically-basic
 remote_theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
