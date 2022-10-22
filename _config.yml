@@ -35,7 +35,6 @@ author:
 logo: /assets/images/logo/profile_picture_symbol.png
 # Build settings
 # theme: jekyll-theme-basically-basic
-remote_theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
 search: true
@@ -53,7 +52,7 @@ liquid:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
