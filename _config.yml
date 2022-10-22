@@ -22,17 +22,23 @@
 title: JOATMON
 email: sassoli@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal blog awhere I talks about philosophy, politics, computer science, art and literature.
+  My personal blog where I talks about philosophy, politics, computer science, art and literature.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.sassoli.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bsassoli
 github_username: bsassoli
+medium_username: sassoli
 locale: "en-US"
 author:
   name: Bernardino Sasoli de' Bianchi
   twitter: bsassoli
+  medium: sassoli
   picture: /assets/images/avatar.jpg
 logo: /assets/images/logo/profile_picture_symbol.png
+
+# seo
+google_analytics: G-LPXHY7RSMB
+
 # Build settings
 # theme: jekyll-theme-basically-basic
 plugins:
