@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 title: JOATMON
 email: sassoli@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal blog where I talks about philosophy, politics, computer science, art and literature.
+  Personal blog where I talk about philosophy, politics, computer science, art and literature.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.sassoli.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bsassoli
@@ -84,10 +83,10 @@ paginate_path: /page:num/
 #   - vendor/ruby/
 
 # Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -99,12 +98,12 @@ defaults:
       layout: post
       read_time: true
   # _recipes
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      read_time: true
+  # - scope:
+  #     path: "_recipes"
+  #     type: recipes
+  #   values:
+  #     layout: post
+  #     read_time: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
